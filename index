@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="contact" href="index.html">
+<style>
+    body {
+        background-color: #9f5f80;
+        text-align: center;
+        width: -100px;
+        display: block;
+        padding: 15px;
+    } 
+    footer {
+        background-color: yellow;
+        display: block;
+    }
+
+</style>
+
+</head>
+<body>
+    <h1>Contact Me</h1>
+    
+<hr>
+    <form action="mailto:ljevans24@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="yourName" value=""><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail" value=""><br>
+        <label>Your Message:</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" name="">
+    </form>
+    <button><a href="index.html" alt="broken link">Home</a></button>
+    <div>
+        <footer>
+            <p>Thank you for checking out my first website!</p>
+        </footer>
+    </div>
+</body>
+</html>
